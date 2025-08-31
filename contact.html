@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="blog-title">Cheenachatti: Not so smart blog.</h1>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    <h1>Contact</h1>
+    <p>If you want to reach out, send a message to the wizard behind the blog!</p>
+    <hr>
+    <h2>About the Author</h2>
+    <p><strong>Bio:</strong></p>
+    <p>
+        Meet Cheena, a 35-year-old comedy fantasy enthusiast who once tried to teach a toaster to play chess. When not busy exploring the magical realms of Random thoughts, Cheena can be found debating with real humans about the best way to make red-darter dosas. With a background in wizardry (and a minor in quantum rubber duck debugging), Cheena is on a quest to discover if when he will become a proper dad. If you have questions, riddles, or enchanted algorithms, Cheena is always ready for a new adventure!
+    </p>
+    <hr>
+        <p><a href="index.html">Back to Home</a></p>
+        <p>Contact by email: <span id="email-link"></span></p>
+        <script>
+            // Obfuscated email to prevent bots
+            const user = 'pepper';
+            const domain = 'cheenachatti.in';
+            const email = user + '@' + domain;
+            const link = document.createElement('a');
+            link.href = 'mailto:' + email;
+            link.textContent = 'Send Email';
+            document.getElementById('email-link').appendChild(link);
+        </script>
+</body>
+</html>
